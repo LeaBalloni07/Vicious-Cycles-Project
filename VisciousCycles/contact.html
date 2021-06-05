@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="practice.css">
+    <script src="nav.js"></script>
+	<title>Viscious Cycles</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header class="main-header">
+      <div class="container">
+        <a href="index.html"><img src="images/logo/VIscious_Cycles_Red.png" alt="viscious cycles logo"></a>
+        <div class="mobile">
+      <span class="header" onclick="openNav()">menu &#9776;</span>
+        </div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="bikes.html">Bikes</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="brands.html">Brands</a></li>
+          <li><a href="contact.html">Contact</a></li> 
+        </ul>
+      </div>
+      </header>
+  <nav>
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="index.html">Home</a>
+      <a href="bikes.html">Bikes</a>
+      <a href="services.html">Services</a>
+      <a href="brands.html">Brands</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+  
+  </nav>
+
+       <section>
+           <div class="services">
+           <h1>GET IN TOUCH</h1>
+            </div>
+       </section>
+        <div class="form_container">
+		<form>
+			<label for="fName">First Name:</label>
+            <input type="text" name="fName" id="fName">
+            
+			<label for="lName">Last Name:</label>
+            <input type="text" name="lName" id="lName">
+            
+			<label for="email">Email Address:</label>
+            <input type="email" name="email" id="email">
+            
+			<label for="phone">Phone Number:</label>
+            <input type="tel" name="phone" id="phone">
+
+            <label for="message">Message</label>
+            <textarea id="message" name="feedback" rows="5" cols="400"></textarea>
+
+            <p>I would like to hear more about:</p>
+            <p><input name="events" type="checkbox" value="events">Local Bike Events</p>
+            <p><input name="routes" type="checkbox" value="routes">Bicycle Routes</p>
+            <p><input name="store" type="checkbox" value="store">Store Events</p>
+            
+            <p>Please select your gender:</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label> <br>
+          
+            <p>Please select your age:</p>
+            <input type="radio" id="age1" name="age" value="30">
+            <label for="age1">0 - 30</label><br>
+            <input type="radio" id="age2" name="age" value="60">
+            <label for="age2">31 - 60</label><br>  
+            <input type="radio" id="age3" name="age" value="100">
+            <label for="age3">61 - 100</label><br>
+
+            <p>How did you hear about us?</p>
+            <label for="info">Select One:</label>
+            <select id="info" name="info">
+              <option value="facebook">Facebook</option>
+              <option value="twitter">Twitter</option>
+              <option value="google">Google</option>
+              <option value="friend">Friend</option>
+              <option value="other">Other</option>
+            </select>
+            
+			<input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+            
+		</form>
+	    </div>
+	<!-- Use the footer area to add webpage footer content -->
+	<footer>
+		&copy; Copyright 2020. Website Design in Raleigh, NC By Leaan Balloni<br>
+			<a href="https://www.facebook.com"><img src="images/social_media/facebook.png"  alt="Facebook Social Media Link"></a>
+			<a href="https://twitter.com"><img src="images/social_media/twitter.png"  alt="Twitter Social Media Link"></a>
+	</footer>
+</body>
+</html>
+	
